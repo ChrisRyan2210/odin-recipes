@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center; /* Align the buttons to the center */
+}
+
+.buttons > div {
+    display: inline-block; /* Display the buttons in one line */
+    margin:  10px; /* Add some margin between the buttons */
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: lightcoral;
+    padding: 30px;
+}

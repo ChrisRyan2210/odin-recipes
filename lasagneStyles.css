@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%; /* Example width */
+    height: auto; /* Example height */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* below = each div*/
+.container > div {
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    vertical-align: top;
+    padding: 10px;  
+}
+
+/* instructions */
+.instructions {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    width: 80%;
+    margin: 10px auto;
+}
