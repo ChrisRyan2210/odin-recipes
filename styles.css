@@ -1,0 +1,21 @@
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+}
+/* below is descendant */
+.header .heading {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#para {
+    font-size: 22px;
+    color:blue;
+}
